@@ -1,0 +1,61 @@
+# =====================
+# Python / Deep Learning
+# =====================
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor configs
+.vscode/
+.idea/
+
+# Logs & checkpoints
+*.log
+logs/
+out/checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Data
+data/
+!data/README.md   # keep placeholder if you add one
+
+# Datasets / large zips
+*.zip
+*.tar
+*.gz
+
+# Jupyter output
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+*.ipynb~
+notebooks/__pycache__/
+
+# Temporary / cache folders
+__pycache__/
+cache/
+tmp/
+wandb/
+runs/
+
+# Model weights
+*.safetensors
+
+# System files
+*.swp
+*.bak

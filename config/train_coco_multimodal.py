@@ -1,0 +1,17 @@
+out_dir = 'out-coco'
+eval_interval = 200
+eval_iters = 200
+log_interval = 10
+block_size = 256
+batch_size = 4
+n_layer = 6
+n_head = 6
+n_embd = 384
+max_iters = 10000
+lr_decay_iters = 10000
+min_lr = 6e-5
+learning_rate = 6e-4
+dataset = 'coco'
+image_dir = '/home/ubuntu/multimodelNanochat/data/images/train2017'
+annotations_file = '/home/ubuntu/multimodelNanochat/data/annotations//captions_train2017.json'
+dropout = 0.1
